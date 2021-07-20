@@ -11,6 +11,7 @@ h1{
 #category{
     margin-left: 50px;
     margin-left:20px;
+    border-right:1px solid gray;
 }
 #category ul{
     padding-left: 20px;
