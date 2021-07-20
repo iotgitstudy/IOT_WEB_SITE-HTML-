@@ -1,5 +1,7 @@
 h1{
     text-align: center;
+    border-bottom:1px solid gray;
+    padding-bottom: 20px;
     margin-bottom: 40px;
 }
 #category_and_main{
@@ -8,6 +10,10 @@ h1{
 }
 #category{
     margin-left: 50px;
+    margin-left:20px;
+}
+#category ul{
+    padding-left: 20px;
 }
 #textarea h2{
     text-align: center;
