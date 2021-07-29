@@ -45,9 +45,9 @@ app.post('/update_process', function(request, response){
 app.post('/delete_process', function(request, response){
   topic.delete_process(request, response);
 })
-
-app.listen(process.env.PORT || 8080, function(){ 
-  console.log('go!');
+const PORT = process.env.PORT || 5500;
+app.listen(PORT, function(){ 
+  console.log(`${PORT}`);
 });
 
 
