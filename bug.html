@@ -40,14 +40,14 @@
         <header class="masthead">
             <div class="container">
                 <div id="textarea">
-                    <form>
+                    <form action="/bug_process" method="POST">
                         제목
-                        <input type="text">
+                        <input type="text" id="title">
                         <br>
                         내용
-                        <input type="text" style="width:300px;height:200px">
-                        <br>
-                        <input type="button" value="확인">
+                        <input type="text" id="description" style="width:300px;height:200px">
+                        <br> 
+                        <input type="submit" value="확인">
                     </form>
                 </div>
                 
